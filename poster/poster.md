@@ -46,32 +46,27 @@ size: 44:33
 
 <!-- #### Summary -->
 
-- Aimed to define bilateral symmetry for a connectome, and formally test this hypothesis.
+- This is what we were interested in.
 
 </div>
 <div>
 
-- Hemispheres differ in a network-wide parameter under even the simplest model of a network pair.
+- We did this awesome thing.
 
 </div>
 <div>
 
-- Hemispheres differ in neuron group connection probabilities, even when adjusting for the network-wide effect.
+- Then we did this other awesome thing.
 
 </div>
 <div>
 
-- Detect no differences in adjusted group connections after removing a cell type or when only considering strong edges.
-
-<!-- - Removing a specific cell type and adjusting for this network-wide effect provides one notion of bilateral symmetry -->
-
-<!-- 
-- Difference between hemispheres can be explained as combination of network-wide and cell type-specific effects -->
+- Finally, we did this amazing thing.
 
 </div>
 <div>
 
-- Provided a definition of bilateral symmetry exhibited by this connectome, tools for future connectome comparisons
+- This is what changes for you. 
 
 </div>
 </div>
