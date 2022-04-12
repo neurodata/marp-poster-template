@@ -14,7 +14,7 @@ Instructions for using this template in VSCode:
     ...
 }
 ```
- where `<local-relative-path>` is the path relative to the folder that you have open in VSCode. Alternatively, you can add the path to `Preferences -> Settings` then search `Markdown › Marp: Themes`
+ where `<local-relative-path>` is the path relative to the folder that you have open in VSCode. Alternatively, you can add the path to `Preferences -> Settings` in the field called `Markdown › Marp: Themes`
 
 - Add the following header to your poster file (`.md`):
 
