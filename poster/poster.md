@@ -5,76 +5,88 @@ paginate: false
 size: 44:33
 ---
 
+<!-- Start header -->
 <div class="header">
+
+<!-- Image in the upper left -->
 <div>
 
 ![headerlogo](../images/hopkins-logo.png)
 
 </div>
+
+<!-- Title and author information -->
 <div>
 
-
-# This is the best work ever
+# Making posters via marp <br> a lesson in markdowning
 
 ## Benjamin D. Pedigo<span class=super>1*</span>, Thomas L. Athey<span class=super>1</span>, Joshua T. Vogelstein<span class=super>1</span>
 
-##### 1 - Johns Hopkins University, 2 - University of Cambridge, $\ast$ - correspondence: ![icon](../../images/email.png) [_bpedigo@jhu.edu_](mailto:bpedigo@jhu.edu) ![icon](../../images/github.png) [_@bdpedigo (Github)_](https://github.com/bdpedigo) ![icon](../../images/twitter.png) [_@bpedigod (Twitter)_](https://twitter.com/bpedigod) ![icon](../../images/web.png) [_bdpedigo.github.io_](https://bdpedigo.github.io/) 
+##### 1 - Johns Hopkins University, $\ast$ - correspondence: ![icon](../../images/email.png) [_<insert-email>@jhu.edu_](mailto:<insert-email>@jhu.edu) ![icon](../../images/github.png) [_@<insert-handle> (Github)_](https://github.com/<insert-handle>) ![icon](../../images/twitter.png) [_@<insert-handle> (Twitter)_](https://twitter.com/<insert-handle>) ![icon](../../images/web.png) [_<insert-website>.io_](https://<insert-website>) 
 
 </div>
+
+<!-- Image on the upper right -->
 <div>
 
 ![headerlogo](../images/nd_logo.png)
 
-<span style="text-align:center; margin:0; padding:0">
-
-<!-- ### [neurodata.io](https://neurodata.io/) -->
-
-</span>
-
-</div>
 </div>
 
+<!-- End header -->
+</div>
 
-<!-- # Towards statistical comparative connectomics:<br> A case study on the bilateral symmetry of an insect brain connectome -->
-
-
+<!-- Summary box title -->
 <span class='h3-noline'> Summary </span>
 
+<!-- Summary box using 5 columns-->
 <div class='box'>
 <div class="columns5">
-<div>
 
-<!-- #### Summary -->
+<!-- Box col1 -->
+<div>
 
 - This is what we were interested in.
 
 </div>
+
+<!-- Box col2 -->
 <div>
 
 - We did this awesome thing.
 
 </div>
+
+<!-- Box col3 -->
 <div>
 
 - Then we did this other awesome thing.
 
 </div>
+
+<!-- Box col4 -->
 <div>
 
 - Finally, we did this amazing thing.
 
 </div>
+
+<!-- Box col5 -->
 <div>
 
 - This is what changes for you. 
 
 </div>
+
+<!-- End columns and box -->
 </div>
 </div>
 
+<!-- Start main 3 column split for poster -->
 <div class="columns3">
-<div>
 
+<!-- Start main column 1 -->
+<div>
 
 ### Motivation
 
@@ -82,7 +94,7 @@ size: 44:33
 - Comparing connectomes could help elucidate which structural features are necessary for yielding the capabilities animal intelligences.
 - Bilateral symmetry for connectomes is one such comparison; has been investigated, but not clearly defined as a network hypothesis.
 
-### Larval *Drosophila* brain connectome
+### What are we going to do
 
 <div class=columns2>
 <div>
@@ -101,19 +113,13 @@ size: 44:33
 </div>
 </div>
 
-<!-- - Connectome of a larval *Drosophila* [1] has xxx neurons and xxx synapses -->
-
-<!-- END subcolumns -->
-
-<!-- ![center](../../../results/figs/show_data/adj_and_layout.png) -->
-
+<!-- Big question for this work -->
 ## Are the <span style="color:var(--left)"> left </span> and <span style="color:var(--right)"> right </span> networks "different"?
 <br>
 
-<!-- - Two sample testing problem! But for networks -->
-Requires that we define what we could mean by "different" for a pair of networks, develop a test procedure for each definition.
+This is what we need to do for this work
 
-### Density test (Model 1)
+### Thing we did 1
 
 <div class=columns2>
 <div>
@@ -142,17 +148,16 @@ Requires that we define what we could mean by "different" for a pair of networks
 </div>
 </div>
 
+<!-- End main column 1 -->
 </div>
+<!-- Start main column 2 -->
 <div>
 
+### Thing we did 2
 
-### Group connection test (Model 2)
-
-<!-- #### A -->
 ![center w:10.5in](./../../../results/figs/sbm_unmatched_test/sbm_methods_explain.svg)
 **Fig 3A:** Testing under stochastic block model (SBM) compares probabilities of connections between groups (here using cell types [1]).
 
-<!-- START subcolumns -->
 <div class=columns2>
 <div>
 
@@ -169,7 +174,6 @@ Requires that we define what we could mean by "different" for a pair of networks
 <div class=columns2>
 <div>
 
-<!-- P-values for group connections. Test of equal group connections rejects ($p<10^{-8}$). -->
 
 **Fig 3B:** Test comparing group connections rejected ($p{<}10^{-7}$); five specific connections differ.
 
@@ -181,13 +185,8 @@ Requires that we define what we could mean by "different" for a pair of networks
 </div>
 </div>
 
-### Density-adjusted group connection test (Model 3)
+### Thing we did 3
 
-<!-- ![](./../../../results/figs/adjusted_sbm_unmatched_test/adjusted_methods_explain.svg)
-
-![](./../../../results/figs/adjusted_sbm_unmatched_test/sbm_pvalues.svg) -->
-
-<!-- ![center w:14in](./../../../results/figs/adjusted_sbm_unmatched_test/adjusted_sbm_composite.svg) -->
 <div class=columns2>
 <div>
 
@@ -216,32 +215,17 @@ Requires that we define what we could mean by "different" for a pair of networks
 </div>
 </div>
 
-
+<!-- End main column 2 -->
 </div>
+<!-- Start main column 3 -->
 <div>
 
-
-<!-- ### Removing Kenyon cells -->
-
-<!-- - Density test: $p < 10^{-26}$
-- Group connection test: $p < 10^{-2}$
-- Density-adjusted group connection test: $p \approx 0.5$ -->
-
-<!-- ### Removing Kenyon cells
-Reran all tests after removing the asymmetric cell type (see below) -->
-
-### Notions of bilateral symmetry
-
-<!-- <style scoped>
-table {
-    font-size: 0.3in;
-    /* text-align: center; */
-    /* margin-bottom: 50px; */
-}
-</style> -->
+### Thing we did 4
 
 <div class="columns2">
 <div>
+
+<!-- Example of a table, here within a column split -->
 
 #### With Kenyon cells
 | Model |                       $H_0$ (vs. $H_A \neq$)                       |    p-value    |
@@ -264,22 +248,8 @@ table {
 </div>
 </div>
 
-<!-- #### With Kenyon cells
-| Model  |                       $H_0$ (vs. $H_A \neq$)                       | p-value |
-| :----- | :----------------------------------------------------------------: | :-----: |
-| ER     |  $\color{#66c2a5} p^{(L)} \color{black} = \color{#fc8d62}p^{(R)}$  |    x    |
-| SBM    | $\color{#66c2a5} B^{(L)} \color{black} = \color{#fc8d62} B^{(R)}$  |         |
-| DA-SBM | $\color{#66c2a5}B^{(L)} \color{black}  = c \color{#fc8d62}B^{(R)}$ |         |
 
-#### Without Kenyon cells
-| Model  |                       $H_0$ (vs. $H_A \neq$)                       | p-value |
-| :----- | :----------------------------------------------------------------: | :-----: |
-| ER     |  $\color{#66c2a5} p^{(L)} \color{black} = \color{#fc8d62}p^{(R)}$  |    x    |
-| SBM    | $\color{#66c2a5} B^{(L)} \color{black} = \color{#fc8d62} B^{(R)}$  |    d    |
-| DA-SBM | $\color{#66c2a5}B^{(L)} \color{black}  = c \color{#fc8d62}B^{(R)}$ |         | --> |
-
-
-### Edge weight thresholds
+### Thing we did 5
 
 <!-- ![](../../../results/figs/thresholding_tests/edge_weight_dist_input_proportion.png) -->
 
@@ -314,8 +284,8 @@ table {
 - Other sensible neuron groupings for group connection test
 - Matching nodes across networks leads to new models, likely more power
 
+<!-- Code/Refs/Thanks/Funding - small section -->
 ###
-
 
 <div class="columns2">
 <div>
@@ -325,17 +295,20 @@ table {
 <div class="columns3-np">
 <div>
 
+<!-- Logo for a package -->
 ![left h:1in](./../../images/graspologic_svg.svg)
 
 </div>
 <div>
 
+<!-- Badges for a package -->
 [![h:.4in](https://pepy.tech/badge/graspologic)](https://pepy.tech/project/graspologic) 
 [![h:.4in](https://img.shields.io/github/stars/microsoft/graspologic?style=social)](https://github.com/microsoft/graspologic)
 
 </div>
 <div>
 
+<!-- QR code to a package -->
 ![center h:1in](./../../images/graspologic-qr.svg)
 
 </div>
@@ -351,12 +324,13 @@ This work
 </div>
 <div>
 
+<!-- JupyterBook/Docs for a project -->
 [![h:0.4in](https://jupyterbook.org/badge.svg)](http://docs.neurodata.io/bilateral-connectome/)
 
 </div>
 <div>
 
-
+<!-- QR code to link to repo for a project -->
 ![center h:1in](./../../images/bilateral-qr.svg)
 
 </div>
@@ -371,16 +345,15 @@ Marta Zlatic's lab, Albert Cardona's lab and all tracers for the amazing dataset
 <div>
 
 #### References
-
+<!-- Need these breaks <br> between refs otherwise formatting breaks for some reason -->
 <footer>
 [1] Winding, Pedigo et al. "The complete connectome of an insect brain," In preparation (2022) 
-<br>
+<br> 
 [2] Chung et al. "Statistical connectomics," Ann. Rev. Statistics and its Application (2021) <br>
 [3] Athreya et al. "Statistical inference on random dot product graphs: a survey," JMLR (2017)
 </footer>
 
 #### Funding
-<!-- ![h:1in](../../images/NSF_4-Color_bitmap_Logo.png) -->
 
 <footer>
 B.D.P. supported by the NSF GRFP (DGE1746891). J.T.V. supported by NSF CAREER Award (1942963). J.T.V + C.E.P supported by NIH BRAIN Initiative (RF1MH123233). Findings and conclusions expressed are  those of the authors and not necessarily those of the funders.
@@ -389,14 +362,8 @@ B.D.P. supported by the NSF GRFP (DGE1746891). J.T.V. supported by NSF CAREER Aw
 </div>
 </div>
 
-
-
-
-<!-- <div class='references'>
-
-
-</div> -->
-
+<!-- End main column 3 -->
 </div>
+<!-- End main columns -->
 </div>
 
