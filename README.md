@@ -33,7 +33,7 @@ size: 36:24
 
 ## Exporting the poster 
 - The poster can be exported as `pdf`, `jpg`, `png`, and other formats supported by Marp.
-- To export, click the Marp icon in the top right corner of the editor and choose `Export slide deck`.
+- To export, click the Marp icon in the top right corner of the editor and choose `Export slide deck`. ![](./images/marp-export.png)
  
 
 ## Examples 
