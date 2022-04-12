@@ -196,8 +196,8 @@ than the others. */
   text-align: justify;
   line-height: 1.25;
   overflow: hidden;
-
 } */
+
 /* I adapted this for references */
 footer {
   color: var(--header-footer-color);
@@ -208,17 +208,9 @@ footer {
   position: relative;
 }
 
-.references {
-  color: var(--header-footer-color);
-  bottom: auto;
-  left: auto;
-  font-size: 0.3in;
-  overflow: hidden;
-  position: relative;
-}
-
 /* IMAGES */
 /* These are custom image formatters */
+
 /* Center an image */
 img[alt~="center"] {
   display: block;
@@ -235,7 +227,8 @@ img[alt~="icon"] {
 }
 
 /* Create a logo in the header */
-/* margin-top is controlling the vertical-alignment, basically. */
+/* TODO: margin-top is controlling the vertical-alignment, basically, so it won't scale
+well with changes to the height of the title or maybe the poster itself */
 img[alt~='headerlogo'] {
   display: inline;
   text-align: center;
@@ -244,34 +237,22 @@ img[alt~='headerlogo'] {
   vertical-align: middle;
 }
 
-/* img[alt~='centerv'] {
-  position: relative;
-  margin-top: auto;
-  vertical-align: middle;
-} */
-
-table th {
-  font-size: 0.4in;
-  font-weight: 500;
-  border-bottom: 0.05in solid grey;
-}
-
-table th:not(:last-child) {
-  border-right: 0.05in solid grey
-}
-
-table td:not(:last-child) {
-  border-right: 0.05in solid grey
-}
-
 img {
   margin-bottom: 0in;
   padding-bottom: 0in;
 }
 
-/* table tr {
-  border-right: 0.0in solid grey
-} */
-section.lead p {
-  text-align: center;
+
+/* TABLES */
+/* I made a few changes to parameters controlling the appearance of tables */
+table th {
+  font-size: 0.4in;
+  font-weight: 500;
+  border-bottom: 0.05in solid grey;
+}
+table th:not(:last-child) {
+  border-right: 0.05in solid grey
+}
+table td:not(:last-child) {
+  border-right: 0.05in solid grey
 }
