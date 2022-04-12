@@ -2,7 +2,7 @@
 
 ## Setting up Marp
 Instructions for using this template in VSCode:
-- Download Marp extension for VSCode.
+- Download [Marp](https://marp.app/) [extension for VSCode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
 - In VSCode `Preferences->Settings`, search Marp. Enable `Marp: Enable HTML`.
 - Add our CSS theme to the list of markdown themes. This can be done by going into `.vscode/settings.json` and adding the css file to the list of Marp themes:
 
