@@ -82,11 +82,8 @@ size: 44:33
 - Comparing connectomes could help elucidate which structural features are necessary for yielding the capabilities animal intelligences.
 - Bilateral symmetry for connectomes is one such comparison; has been investigated, but not clearly defined as a network hypothesis.
 
-<!-- - We explored statistically principled connectome comparison via a case study of a *Drosophila* larva connectome -->
-
 ### Larval *Drosophila* brain connectome
 
-<!-- START subcolumns -->
 <div class=columns2>
 <div>
 
