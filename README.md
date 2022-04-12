@@ -1,8 +1,8 @@
 # Neurodata Marp Poster Template
 
 ## Setting up Marp
-Instructions for using this template in VSCode:
-- Download [Marp](https://marp.app/) [extension for VSCode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
+Instructions for using this [Marp](https://marp.app/) template in VSCode:
+- Download [Marp extension for VSCode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
 - In VSCode `Preferences->Settings`, search Marp. Enable `Marp: Enable HTML`.
 - Add our CSS theme to the list of markdown themes. This can be done by going into `.vscode/settings.json` and adding the css file to the list of Marp themes:
 
@@ -29,9 +29,12 @@ size: 36:24
 ---
 ```
 
-- You should be able to automatically render your poster file when by opening the preview pane to the side.
+- You can automatically render your poster file using the preview preview pane with the `Markdown: Open preview` command.
 
 ## Exporting the poster 
+- The poster can be exported as `pdf`, `jpg`, `png`, and other formats supported by Marp.
+- To export, click the Marp icon in the top right corner of the editor and choose `Export slide deck`.
+ 
 
 ## Examples 
 
