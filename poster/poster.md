@@ -15,10 +15,8 @@ size: 44:33
 
 
 # This is the best work ever
-<!-- # Towards statistical comparative connectomics:<br> A case study on the bilateral symmetry of an insect brain connectome -->
 
-
-## Benjamin D. Pedigo<span class=super>1*</span>, Mike Powell<span class=super>1</span>, Eric W. Bridgeford<span class=super>1</span>, Michael Winding<span class=super>2</span>, Carey E. Priebe<span class=super>1</span>, Joshua T. Vogelstein<span class=super>1</span>
+## Benjamin D. Pedigo<span class=super>1*</span>, Thomas L. Athey<span class=super>1</span>, Joshua T. Vogelstein<span class=super>1</span>
 
 ##### 1 - Johns Hopkins University, 2 - University of Cambridge, $\ast$ - correspondence: ![icon](../../images/email.png) [_bpedigo@jhu.edu_](mailto:bpedigo@jhu.edu) ![icon](../../images/github.png) [_@bdpedigo (Github)_](https://github.com/bdpedigo) ![icon](../../images/twitter.png) [_@bpedigod (Twitter)_](https://twitter.com/bpedigod) ![icon](../../images/web.png) [_bdpedigo.github.io_](https://bdpedigo.github.io/) 
 
