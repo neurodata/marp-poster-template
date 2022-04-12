@@ -16,6 +16,14 @@ Instructions for using this [Marp](https://marp.app/) template in VSCode:
 }
 ```
  where `<local-relative-path>` is the path relative to the folder that you have open in VSCode. Alternatively, you can add the path to `Preferences -> Settings` in the field called `Markdown › Marp: Themes`
+ For example, if you cloned this repo into a folder in VSCode, it would look like
+ ```
+ {
+    "markdown.marp.themes": [
+        "./marp-poster-template/themes/poster.css"
+    ],
+}
+ ```
 
 ## Creating the markdown to generate your poster
 - Add the following header to your poster file (`.md`):
