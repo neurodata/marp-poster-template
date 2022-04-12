@@ -30,6 +30,7 @@ size: 36:24
 ```
 
 - You can automatically render your poster file using the preview preview pane with the `Markdown: Open preview` command.
+- Note that you can change the `size:` option (this denotes width:height). Available sizes are listed at the top of `./theme/poster.css`; you can also create your own size.
 
 ## Exporting the poster 
 - The poster can be exported as `pdf`, `jpg`, `png`, and other formats supported by Marp.
