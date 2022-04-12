@@ -1,0 +1,258 @@
+/*!
+ * Marp default theme.
+ *
+ * @theme poster
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ * @size 40:40 40in 40in
+ * @size 40:30 40in 30in
+ * @size 44:33 44in 33in
+ * @size 36:24 36in 24in
+ * author: Ben Pedigo
+ * source: https://github.com/neurodata/bilateral-connectome/blob/main/docs/slides/themes/poster.css
+ */
+
+/* the sizes above provide options for the size of the poster */
+/* to select one, e.g. use size: 44:33 in the Marp header in markdown*/
+
+@import 'default';
+
+/* OVERALL */
+/* padding controls the size of the margin on the border of the entire poster */
+section {
+  font-size: 0.25in;
+  padding: 1in; 
+  justify-content: flex-start;
+  --nd-blue: #6FA5E1;
+  --left: #66c2a5;
+  --right: #fc8d62;
+  overflow: hidden;
+}
+
+/* TEXT */
+/* title */
+h1 {
+  font-size: 1in;
+  text-align: center;
+  margin-top: 0in;
+  margin-bottom: 0in;
+  padding: 0in;
+}
+/* authors under title */
+h2 {
+  padding: 0in;
+  font-size: 0.6in;
+  margin-top: 0.1in;
+  margin-bottom: 0.05in;
+  text-align: center;
+}
+/* affiliations, correspondence, etc. */
+h5 {
+  margin-bottom: 0in;
+  padding-bottom: 0;
+  padding-top:0;
+  margin-top: 0;
+  vertical-align: top;
+  font-size: 0.4in;
+  text-align: center;
+  font-weight: 425;
+}
+/* for making the superscript on affiliations of authors */
+.super { 
+  vertical-align: super;
+  font-size: 0.35in
+}
+/* section headings */
+h3, .h3-noline {
+  font-size: 0.6in;
+  margin-top: 0.15in;
+  margin-bottom: 0.15in;
+}
+h3{
+  border-bottom: .075in solid var(--nd-blue)
+}
+.h3-noline { 
+  font-weight: 600
+}
+/* sub section headings if you want */
+h4 {
+  padding: 0in;
+  margin-top: 0.15in;
+  margin-bottom: 0.1in;
+  font-size: 0.45in;
+}
+/* control of general text and bullets */
+/* line-height controls vertical line spacing */
+/* overflow: hidden makes it so that text outside the margins is hidden, keeping a clean
+margin */
+p, ul {
+  font-size: 0.4in;
+  text-align: justify;
+  line-height: 1.2;
+  overflow: hidden;
+}
+table {
+  font-size: 0.4in;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+}
+
+/* COLUMNS */
+/* These are a bunch of examples of classes for making column separations */
+/* Note that these can easily be nested, e.g. columns2 inside of a column to split that
+column in half again */
+/* Below are a bunch of 2-column splits, some are not even splits e.g. bigger on left */
+.columns2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.5in;
+  padding: 0in;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.columns2-np {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0; 
+  margin-bottom: 0;
+  gap: 0;
+}
+.columns3-np {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0; 
+  margin-bottom: 0;
+  gap: 0;
+}
+.columns2-br {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0.25in;
+  padding: 0.125in;
+}
+.columns2-bl {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0.25in;
+  padding: 0.125in;
+}
+/* This is what I used to divide the entire poster into 3-panes, so the spacing is bigger
+than the others. */
+.columns3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75in;
+  padding: 0.125in;
+  overflow: hidden;
+  /* background-color: black; */
+}
+/* This is what I used to create a top bar of main points for the poster */
+.columns5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.5in;
+  padding: 0.125in 0.25in;
+}
+/* For making the spacing of the header where title goes */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  gap: 0.0in;
+  margin-bottom: 0in;
+  padding-bottom: 0in;
+}
+/* For making a highlight box at top of poster */
+.box {
+  border: 10px solid var(--nd-blue);
+}
+/* This controls formatting of bullet points */
+/* ul {
+  font-size: 0.4in;
+  text-align: justify;
+  line-height: 1.25;
+  overflow: hidden;
+
+} */
+/* I adapted this for references */
+footer {
+  color: var(--header-footer-color);
+  bottom: auto;
+  left: auto;
+  font-size: 0.25in;
+  overflow: hidden;
+  position: relative;
+}
+
+.references { 
+  color: var(--header-footer-color);
+  bottom: auto;
+  left: auto;
+  font-size: 0.3in;
+  overflow: hidden;
+  position: relative;
+}
+
+/* IMAGES */
+/* These are custom image formatters */
+/* Center an image */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+/* Create an inline icon, e.g. github twitter etc. */
+img[alt~="icon"] {
+  display: inline;
+  margin: 0 0.125em;
+  padding: 0;
+  vertical-align: middle;
+  height: 30px;
+}
+/* Create a logo in the header */
+/* margin-top is controlling the vertical-alignment, basically. */
+img[alt~='headerlogo'] {
+  display: inline;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+/* img[alt~='centerv'] {
+  position: relative;
+  margin-top: auto;
+  vertical-align: middle;
+} */
+
+table th {
+  font-size: 0.4in;
+  font-weight: 500;
+  border-bottom: 0.05in solid grey;
+}
+
+table th:not(:last-child){
+  border-right: 0.05in solid grey
+}
+
+table td:not(:last-child){
+  border-right: 0.05in solid grey
+}
+
+img{
+  margin-bottom: 0in;
+  padding-bottom: 0in;
+}
+
+/* table tr {
+  border-right: 0.0in solid grey
+} */
+section.lead p {
+  text-align: center;
+}
