@@ -73,11 +73,9 @@ h3,
   margin-top: 0.15in;
   margin-bottom: 0.15in;
 }
-
 h3 {
   border-bottom: .075in solid var(--nd-blue)
 }
-
 .h3-noline {
   font-weight: 600
 }
@@ -161,7 +159,7 @@ column in half again */
 
 /* This is what I used to divide the entire poster into 3-panes, so the spacing is bigger
 than the others. */
-.columns3 {
+.columns-main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.75in;
@@ -171,7 +169,7 @@ than the others. */
 }
 
 /* This is what I used to create a top bar of main points for the poster */
-.columns5 {
+.columns-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 0.5in;

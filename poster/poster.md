@@ -41,7 +41,7 @@ size: 44:33
 
 <!-- Summary box using 5 columns-->
 <div class='box'>
-<div class="columns5">
+<div class="columns-box">
 
 <!-- Box col1 -->
 <div>
@@ -83,7 +83,7 @@ size: 44:33
 </div>
 
 <!-- Start main 3 column split for poster -->
-<div class="columns3">
+<div class="columns-main">
 
 <!-- Start main column 1 -->
 <div>
