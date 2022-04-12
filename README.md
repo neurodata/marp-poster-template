@@ -27,4 +27,4 @@ size: 36:24
 ---
 ```
 
-- You should be able to automatically render youor poster file when by opening the preview pane to the side.
+- You should be able to automatically render your poster file when by opening the preview pane to the side.
