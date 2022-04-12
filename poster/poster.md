@@ -8,25 +8,13 @@ size: 44:33
 <div class="header">
 <div>
 
-<!-- <div class=center_container> -->
-
 ![headerlogo](./images/../../../images/hopkins-logo.png)
-
-<!-- <br>
-<br>
-<br>
-
-### Summary -->
-
-<!-- </div> -->
 
 </div>
 <div>
 
-<!-- # Is a whole insect brain connectome bilaterally symmetric? <br> A case study on comparing two networks -->
 
-# Generative network modeling reveals a quantitative definition <br> of bilateral symmetry exhibited by a whole insect brain connectome
-
+# This is the best work ever
 <!-- # Towards statistical comparative connectomics:<br> A case study on the bilateral symmetry of an insect brain connectome -->
 
 
