@@ -8,7 +8,7 @@ size: 44:33
 <div class="header">
 <div>
 
-![headerlogo](./images/../../../images/hopkins-logo.png)
+![headerlogo](../images/hopkins-logo.png)
 
 </div>
 <div>
@@ -23,7 +23,7 @@ size: 44:33
 </div>
 <div>
 
-![headerlogo](./images/../../../images/nd_logo.png)
+![headerlogo](../images/nd_logo.png)
 
 <span style="text-align:center; margin:0; padding:0">
 
