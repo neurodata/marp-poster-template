@@ -22,7 +22,7 @@ size: 44:33
 
 ## Benjamin D. Pedigo<span class=super>1*</span>, Thomas L. Athey<span class=super>1</span>, Joshua T. Vogelstein<span class=super>1</span>
 
-##### 1 - Johns Hopkins University, $\ast$ - correspondence: ![icon](../../images/email.png) [_<insert-email>@jhu.edu_](mailto:<insert-email>@jhu.edu) ![icon](../../images/github.png) [_@<insert-handle> (Github)_](https://github.com/<insert-handle>) ![icon](../../images/twitter.png) [_@<insert-handle> (Twitter)_](https://twitter.com/<insert-handle>) ![icon](../../images/web.png) [_<insert-website>.io_](https://<insert-website>) 
+##### 1 - Johns Hopkins University, $\ast$ - correspondence: ![icon](../images/email.png) [_<insert-email>@jhu.edu_](mailto:<insert-email>@jhu.edu) ![icon](../images/github.png) [_@<insert-handle> (Github)_](https://github.com/<insert-handle>) ![icon](../images/twitter.png) [_@<insert-handle> (Twitter)_](https://twitter.com/<insert-handle>) ![icon](../images/web.png) [_<insert-website>.io_](https://<insert-website>) 
 
 </div>
 
